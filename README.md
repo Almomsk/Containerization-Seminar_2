@@ -182,4 +182,4 @@ lxc-destroy -n testOne
 
 
 
-*Подготовил студент Geek Brains* [**`Терехов Александр`**](https://gb.ru/users/7696463), containerization-Seminar_2
+*Подготовил студент Geek Brains* [**`Александр Иванов`**](https://gb.ru/users/2276194), containerization-Seminar_2
