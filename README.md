@@ -38,7 +38,7 @@ lxd init
 lxc version
 ```
 
-![lxc version](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/20-19-21.png)
+![lxc version](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/20-19-21.png)
 
 * Следующей командой создаем новый контейнер с именем testOne и задаем путь для файла конфигурации:
 ```
@@ -47,12 +47,12 @@ lxc-create -n testOne -t ubuntu -f /usr/share/doc/lxc/lxc-veth.conf
 
 Видим большое количество текста, значит команда введена правильно. В тексте указана ошибка открытия файла конфигурации указанного нами. На запуск контейнера это не повлияет, а случается из=за того, что такого файла на данном этапе не существует.
 
-![lxc create](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/20-32-30.png)
+![lxc create](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/20-32-30.png)
 
 
 После того, как контейнер установился мы видим следующий текст:
 
-![lxc creates](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/20-42-39.png)
+![lxc creates](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/20-42-39.png)
 
 Система оповещает нас о том, что контейнер создан, у него заданы стандартные параметры (логин: ubuntu, пароль: ubuntu).
 
@@ -62,7 +62,7 @@ lxc-create -n testOne -t ubuntu -f /usr/share/doc/lxc/lxc-veth.conf
 sudo lxc-start -d -n testOne
 ```
 
-![lxc-start](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/21-24-36.png)
+![lxc-start](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/21-24-36.png)
 
 Если ситема никак не оповестила нас ни о чем, значит команда успешно выполнена. Проверить это можно, например, путем входа в контейнер:
 ```
@@ -71,7 +71,7 @@ sudo lxc-attach -n testOne
 
 Видим, что мы зашли в testOne под root.
 
-![lxc-attach](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/21-25-25.png)
+![lxc-attach](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/21-25-25.png)
 
 
 * Вводим следующую команду для просмотра выделенной и свободной памяти:
@@ -79,7 +79,7 @@ sudo lxc-attach -n testOne
 free -m
 ```
 
-![free -m](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/21-26-00.png)
+![free -m](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/21-26-00.png)
 
 
 Для удобства сразу перейдем в нужную папку:
@@ -93,11 +93,11 @@ cat memory.max
 ```
 Здесь мы можем наблюдать, что ограничение памяти установлено на максимальное значение.
 
-![cat memory.max](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/21-31-24.png)
+![cat memory.max](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/21-31-24.png)
 
 Далее выполним тоже самое из папки .lxc:
 
-![cat memory.max](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/21-58-06.png)
+![cat memory.max](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/21-58-06.png)
 
 Убеждаемся в максимальном значении. Выходим из контейнера:
 ```
@@ -110,7 +110,7 @@ exit
 sudo cat /var/lib/lxc/testOne/config
 ```
 
-![cat memory.max](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/21-59-32.png)
+![cat memory.max](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/21-59-32.png)
 
 
 После этого любым удобным редактором (я делал через редактор nano) добавляем в этот файл конфигурации вниз текста следующую строку:
@@ -119,7 +119,7 @@ sudo cat /var/lib/lxc/testOne/config
 lxc.cgroup2.memory.max = 256M
 ```
 
-![memory.max = 256M](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/22-01-40.png)
+![memory.max = 256M](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/22-01-40.png)
 
 
 Таким образом мы ограничили потребление памяти на более 256 мб.
@@ -129,7 +129,7 @@ lxc.cgroup2.memory.max = 256M
 sudo cat /sys/fs/cgroup/lxc.payload.testOne/mempry.max
 ```
 
-![memory.max = 256 mb](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/22-04-11.png)
+![memory.max = 256 mb](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/22-04-11.png)
 
 Как мы видим, система пересчитала и выдала результат, где много цифр. Не пугаемся, это значение примерно равно 256 мб.
 
@@ -144,7 +144,7 @@ sudo lxc-ls -f
 sudo nano /var/lib/lxc/testOne/config
 ```
 
-![sudo nano /var/lib/lxc/testOne/config](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/22-04-56.png)
+![sudo nano /var/lib/lxc/testOne/config](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/22-04-56.png)
 
 Добавляем в конец текста файла конфигурации следующую строку:
 ```
@@ -153,7 +153,7 @@ lxc.start.auto = 1
 
 Сохраняем, закрываем редактор и перезагружаем систему, например командой '$ reboot'.
 
-![reboot](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/22-06-03.png)
+![reboot](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/22-06-03.png)
 
 
 После перезагрузки снова выполняем команду:
@@ -164,7 +164,7 @@ sudo lxc-ls -f
 
 Вводим пароль root и убеждаемся, что контейнер запущен и автозапуск включен.
 
-![autorun](https://github.com/Terekhov-A-S/Containerization-Seminar_2/blob/main/source/22-08-30.png)
+![autorun](https://github.com/Almomsk/Containerization-Seminar_2/blob/main/source/22-08-30.png)
 
 
 * При запуске контейнера можно в параметрах команды указать, где хранить логи, например:
