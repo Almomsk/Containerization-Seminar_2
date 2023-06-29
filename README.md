@@ -1,7 +1,7 @@
 ﻿# Контейнеризация (семинары)
 
 
-![picture for containerization](https://github.com/Terekhov-A-S/Containerization-Seminar_5/blob/main/containerization.jpg)
+![picture for containerization](https://github.com/Almomsk/Containerization-Seminar_5/blob/main/containerization.jpg)
 
 ## Урок 5. Docker Compose и Docker Swarm
 
@@ -21,24 +21,24 @@
 
 
 
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_1.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_2.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_3.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_4.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_5.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_6.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_7.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_8.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_9.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_10.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_11.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_12.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_13.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_14.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_15.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_16.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_17.png)
-![command for linux containerization](https://raw.githubusercontent.com/Terekhov-A-S/Containerization-Seminar_5/main/source/Screenshot_18.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_1.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_2.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_3.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_4.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_5.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_6.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_7.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_8.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_9.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_10.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_11.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_12.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_13.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_14.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_15.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_16.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_17.png)
+![command for linux containerization](https://raw.githubusercontent.com/Almomsk/Containerization-Seminar_5/main/source/Screenshot_18.png)
 
 
 
